@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+.wrapper{
+	width:97%;
+	height:auto;
+	border:0.5px solid #000;
+	margin:auto;
+	line-height:normal;
+}
+
+.header{
+	width:100%;
+	height:150px;
+	border:0.5px solid #000;
+}
+.timkiem{
+	padding-left:200px;
+}
+.header ul li{
+	float:left;
+ 
+	list-style:none;
+	marign-top:70px;
+	margin-left:1px;
+	display:block;
+	text-decoration:none;
+	}
+.header ul li a{
+	margin-top:100px;
+	margin-left:300px;
+	text-decoration:none;
+	color:#669;
+	}
+
+
+.banner{
+	width:100%;
+	height:310px;
+	border:0.5px solid #000;
+	position:relative;
+}
+.mySlides {
+    display: none;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+ .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.menu{
+	width:100%;
+	height:50px; 
+	background:#FFF;
+	border:0.5px solid#000;
+}
+.menu>ul>li{
+	float:left;
+	line-height:30px;
+	margin-left:80px;
+	padding-top:10px;
+	list-style:none;
+	position:relative;
+}
+.menu>ul>li:last-child{
+	border-right:none;
+	
+}
+.menu ul li:hover{
+	transition:all 0.2s;
+}
+.menu ul li:hover li{
+	display:block;
+}
+.menu ul li a{
+	color:#000;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#699;
+}
+.menu ul li ul{
+	position:absolute;
+	background:#FFF;
+	top:30px;
+	left:0px;
+	width:150px;
+}
+.dt1:hover{
+	border:1px solid #699;
+	
+	}
+.menu ul li ul li{
+	float:inherit;
+	display:none;
+	padding:5px 40px;
+}
+.content{
+	width:100%;
+	height:auto;
+	border:0.5px solid#000;
+}
+.allsanpham ul li{
+	padding:50px;
+	list-style:none;
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+}
+.allsanpham ul li a{
+	text-decoration:none;
+}
+.allsanpham ul li:hover{
+	border: 1px solid #0CF; 
+}
+.hangbanchay ul li{
+	padding:50px;
+	list-style:none;
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+}
+.hangbanchay ul li a{
+	text-decoration:none;
+}
+.hangbanchay ul li:hover{
+	border: 1px solid #0CF; 
+}
+.chitietsanpham {
+	height:1500px;
+	}
+.chitietsanpham ul li{
+	padding:40px;
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+	list-style:none;
+	}
+.chitietsanpham ul li a{
+	text-decoration:none;
+}
+.chitietsanpham ul li:hover{
+	border: 1px solid #0CF;
+}
+.cart{
+	width:100%;
+	float:center;
+}
+.timkiemsp ul li{
+	margin-left:20px;
+	float:left;
+	list-style:none;
+	}
+
+.footer{
+	width:100%;
+	height:280px;
+	border:1px solid #000;
+	background:#CCC;
+}
+.footer ul li{
+	padding:30px;
+	list-style:none;
+	float:left;
+	margin-left:27px;
+	margin-top:5px;
+}
+
+.icon ul li{
+	float:left;
+	margin-left:20px;
+	padding-top:20px;
+	list-style:none;
+	}
+.icon ul li a{
+	text-decoration:none;
+}
+.left{
+	width:250px;
+	height:100%;
+	border:0.5px solid #000;
+	float:left;
+}
+.danhsachsanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.danhsachsanpham ul li{
+	margin-left:10px;
+	margin:15px;
+}
+.danhsachsanpham a{
+	text-decoration:none;
+	color:#000;
+}
+.danhsachsanpham a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear:both;
+}
+.right{
+	width:1050px;
+	height:auto;
+	border:0.5px solid#000;
+	float :right;
+}
